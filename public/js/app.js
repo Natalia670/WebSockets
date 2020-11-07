@@ -14,6 +14,8 @@ function makeToastMessage(message) {
   }
     
 
+
+  
 window.socket = null;
 function connectToSocketIo() {
   let server = window.location.protocol + "//" + window.location.host;
